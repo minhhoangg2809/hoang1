@@ -1,0 +1,55 @@
+﻿Testing:(testcase testpart bao phủ)
+     có thể chỉ ra lỗi ,ko thể khẳng định không còn lỗi(có thể vét cạn)
+1 kiểm thử thành công là 1 kiểm thử phát hiện ra lỗi
+
+mô hình chữ V
+
+các mức kiểm thử:
+-đơn vị: tìm lỗi trong từng đơn vị
+-tích hợp: tìm lỗi trong khi ghép các đơn vị
+-hệ thống:trc khi phát hành chuyển giao
+-chấp nhận:ng sd dùng thử   
+
+thuật ngữ
+-Lỗi : con ng mắc lỗi trong quá trình làm
+-sai sót,khiếm khuyết: sai sót trên sản  phẩm
+-trục trặc: xảy ra khi chạy phải khiếm khuyết
+-sự cố: sự cố là triệu chứng
+
+mô hình các mức kiểm thử
+
+kiểm thử và gỡ lỗi
+-testing:khẳng định có lỗi
+-debugging:định vị và sửa lỗi
+
+Bao phủ: Chương trình P
+-bao phủ 1 số yêu cầu của P
+-bao phủ 1 phần chức năng của P
+-bao phủ 1 phần trong cấu trúc của P
+
+=> Tiêu chuẩn bao phủ sẽ định hướng ....
+
+
+*Kiểm thử hộp đen(BT,Kiểm thử chức năng)
+- tập trung vào input output,
+-đầu ra  kiểm tra so với đầu ra đoán trc
+- chia không gian thành các miền tương đương
+
+*Kiểm thử hộp trắng(WB,Kiểm thử cấu trúc)
+-các tiêu chuẩn bao phủ:
+	Lệnh: mọi lệnh đều dc thử
+	Vòng lặp:0,1,>1 lần
+	Đường đi: tất cả các khả năng chạy của chương trình
+	Nhánh(if/else): thử vs cả true,false
+
+-Kiểm thử đơn vị  : tìm sự khác biệt giữa đặc tả và cài đặt
+                            đơn vị: module,class,function,object,..
+-kiểm thử tích hợp: phát hiện khi ghép các module vs nhau
+-kiểm thử hệ thống:liên quan đến các yếu tố bên ngoài hệ thống
+		-khả dụng:Giao diện, thông báo,dễ học	
+		-hiệu năng:khả năng đáp ứng
+		-tài nguyên sử dụng:
+-kiểm thử chấp nhận:
+		-Bởi cơ quan phát triển:BAT
+		-Bởi ng dùng:UAT
+-kiểm thử hồi qui
