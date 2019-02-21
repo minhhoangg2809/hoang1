@@ -53,3 +53,45 @@ Bao phủ: Chương trình P
 		-Bởi cơ quan phát triển:BAT
 		-Bởi ng dùng:UAT
 -kiểm thử hồi qui
+
+-Kiểm thử và đảm bảo chất lượng phần mềm
+Nội Dung
+	
+Các dạng khai báo phần tử
+-Liệt kê phần tử
+	Y={10,20,30,40}
+-Dùng quy tắc
+	Y=
+-Tập rỗng 
+
+Biểu đồ Venn
+
+Quan hệ
+Phân hoạch
+Hàm,Miền xác định,miền giá trị
+
+Cho 2 tập A,B một quan hệ R là 1 tập con của tích Đề các AxB
+
+Lý thuyết xác suất
+		-Sự kiện/Biến cố là điều xảy ra
+
+
+
+
+Quan hệ có lực lượng
+1-1
+n-1
+1-n
+n-n
+
+
+Quan hệ trên 1 tập hợp
+R là quan hệ giữa A và A
+Các loại quan hệ
+	-phản xạ:nếu và chỉ nếu với mọi a thuộc A<a,a> thuộc R
+	-đối xứng : nếu và chỉ nếu <a,b> thuộc R thì <b,a> thuộc R
+	-phản đối xứng:nếu <a,b> thuộc R và <b,a> thuộc R thì suy ra a=b
+	-bắc cầu:nếu và chỉ nếu <a,b> thuộc R và <b,c>thuộc R thì <b,c> thuộc R thì <a,c> thuộc R
+
+R là quan hệ thứ tự nếu nó là phản xạ ,bất đối xứng và bắc cầu
+R là quan hệ tương đương nếu nó là phản xạ, đối xứng,bắc cầu
